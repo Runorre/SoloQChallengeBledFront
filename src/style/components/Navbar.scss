@@ -1,0 +1,70 @@
+.navbar-custom {
+    width: 100% !important;
+    height: 110px;
+    background: transparent !important;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: none !important;
+}
+
+.toolbar-custom {
+    display: flex;
+    gap: 20vw;
+}
+
+a.button-navbar {
+    text-decoration: none;
+    font-weight: 700 !important;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #0e141e;
+    min-width: 90px;
+    width: fit-content;
+    max-height: 20px;
+    background: $background-button;
+    background-blend-mode: overlay, normal, lighten;
+    background-size: contain, 100%, contain;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+}
+
+a.button-navbar::before, a.button-navbar::after{
+    content: '';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    border-style: solid;
+    width: 2em;
+    height: 1em;
+    z-index:5;
+    transition: all 0.2s ease-in-out;
+}
+
+a.button-navbar::before{
+top: -7px;
+left: -7px;
+border-width:2px 0 0 2px;
+border-color: $secondary-button;
+}
+
+a.button-navbar::after{
+bottom: -7px;
+right: -7px;
+border-width:0 2px 2px 0;
+border-color: #907644;
+}
+
+a.button-navbar:hover, a.button-navbar.active {
+    &::before, &::after{
+        width: calc(100% + 14px);
+        height: calc(100% + 14px);
+    }
+}
+
