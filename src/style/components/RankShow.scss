@@ -1,0 +1,17 @@
+.rank-show {
+    column-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+
+    img {
+        width: 32px;
+        height: 32px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}

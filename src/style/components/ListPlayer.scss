@@ -1,0 +1,15 @@
+.leaderboard {
+    background: #0e141e;
+    padding: 1em 0.5em;
+    min-height: 300px;
+    color: white !important;
+
+    .text-color {
+        color: white;
+    }
+}
+
+.team-cell {
+    width: 0px; /* Définissez une largeur fixe pour la cellule */
+    padding-right: 60px !important;
+}

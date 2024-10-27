@@ -1,0 +1,32 @@
+.team-show {
+    font-size: 0.7em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+
+    svg {
+        height: 25px;
+        width: 25px;
+        transform: translatey(-2px);
+    }
+}
+
+
+.feet {
+    color: #c9260d;
+}
+.maxxing {
+    color: #069e6e;
+}
+.kkbyl {
+    color: rgb(6, 73, 219);
+}
+.plot {
+    color: rgb(150, 13, 230);
+}
