@@ -27,10 +27,11 @@ const RootPage = () => {
             <div style={{
                 width : "100vw",
                 marginBottom: "10px",
+                justifyContent : "center",
                 display: "flex"
             }}>
                 <div style={{
-                    width : "95%",
+                    width : "96%",
                     display: "flex"
                 }}>
                     <ListPlayer Players={players}/>
