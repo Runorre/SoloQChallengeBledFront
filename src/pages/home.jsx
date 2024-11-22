@@ -24,7 +24,18 @@ const RootPage = () => {
             <WelcomeTexte/>
             {players.length > 0 ?
             
-            <ListPlayer Players={players}/> 
+            <div style={{
+                width : "100vw",
+                marginBottom: "10px",
+                display: "flex"
+            }}>
+                <div style={{
+                    width : "95%",
+                    display: "flex"
+                }}>
+                    <ListPlayer Players={players}/>
+                </div>
+            </div>
             : 
             <Skeleton variant="rectangular" width="100%" height={400} />}
 
