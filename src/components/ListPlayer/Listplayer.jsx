@@ -49,8 +49,8 @@ const ListPlayer = ({Players}) => {
                         <TableCell className="text-color">Compte</TableCell>
                         <TableCell className="text-color">Elo</TableCell>
                         <TableCell className="text-color">Matchs</TableCell>
-                        <TableCell className="text-color">Quota</TableCell>
-                        {/* <TableCell className="text-color">Penalité</TableCell> */}
+                        {/* <TableCell className="text-color">Quota</TableCell> */}
+                        <TableCell className="text-color">Penalité</TableCell>
                         <TableCell className="text-color">Stats</TableCell>
                     </TableRow>
                 </TableHead>
