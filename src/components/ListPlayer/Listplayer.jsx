@@ -19,7 +19,6 @@ const RowPlayer = ({ Classement, PlayerName, Post, team, Account, Rank, tier, LP
                 <RankShow Rank={Rank} Tier={tier} LP={LP} />
             </TableCell>
             <TableCell className="text-color">{Matches}</TableCell>
-            <TableCell className="text-color">{`${quota}/21`}</TableCell>
             <TableCell className="text-color">{`-${penality*25} LP`}</TableCell>
             <TableCell className="text-color">
                 <a
@@ -51,7 +50,7 @@ const ListPlayer = ({Players}) => {
                         <TableCell className="text-color">Elo</TableCell>
                         <TableCell className="text-color">Matchs</TableCell>
                         <TableCell className="text-color">Quota</TableCell>
-                        <TableCell className="text-color">Penalité</TableCell>
+                        {/* <TableCell className="text-color">Penalité</TableCell> */}
                         <TableCell className="text-color">Stats</TableCell>
                     </TableRow>
                 </TableHead>
